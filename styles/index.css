@@ -1,22 +1,27 @@
+html {
+	font-family: sans-serif;
+}
+
 body {
 	margin: 0;
 }
 
 .header {
 	border-bottom: 1px solid #ddd;
-	display: flex;
-	justify-content: center;
 }
 
 .container {
-	display: flex;
+	margin: 0 auto;
 	width: 980px;
+}
+
+.content {
+	display: flex;
 }
 
 #logo {
 	height: 90px;
 	padding: 10px;
-	flex: 4;
 	border: 1px solid red;
 }
 
@@ -25,13 +30,31 @@ body {
 }
 
 #banner {
-	flex: 6;
 	height: 90px;
 	padding: 10px;
 	border: 1px solid red;
 }
 
-#banner: {
+#banner img {
 	display: block;
 	max-width: 100%;
+}
+
+.menu ul {
+	display: flex;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	border: 1px solid red;
+}
+
+.menu ul li {
+	display: block;
+}
+
+.menu ul li a {
+	display: block;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 10px 10px;
 }
