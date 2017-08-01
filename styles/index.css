@@ -58,3 +58,26 @@ body {
 	font-weight: bold;
 	padding: 10px 10px;
 }
+
+.slider {
+	border: 2px solid red; 
+	height: 400px; 
+	margin-top: 40px;
+	display: flex;
+}
+	
+.slider-lv1 {
+	flex: 1;
+	border: 2px solid blue;
+}
+
+.slider-lv2 {
+	height: 49%;	
+	border: 2px solid yellow;
+	display: flex;
+}
+
+.slider-lv3 {
+	flex: 1;
+	border: 2px solid black;
+}
